@@ -1,0 +1,13 @@
+name: homeassistant_dataanalysis
+
+dependencies:
+  - jupyter
+  - pandas
+  - pip
+  - plotly
+  - python=3
+  - pip:
+    - homeassistant
+    - HASS-data-detective
+
+prefix: ./envs
